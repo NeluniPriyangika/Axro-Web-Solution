@@ -1,0 +1,51 @@
+.webSlider-main {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  
+  .carousel {
+    width: 100%;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
+
+  .carousel-item img {
+    height: 500px; /* Set the desired height for the images */
+    width: 100%;   /* Ensure the images take up the full width */
+    object-fit: cover; /* Preserve aspect ratio and cover the entire container */
+  }
+
+  .carousel-caption {
+    top: 35%;
+  }
+
+  .carousel-caption h5 {
+    color: white;
+    font-size: 50px;
+  }
+
+  .carousel-caption p {
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Responsive styles for tablets */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .carousel-caption {
+      font-size: 18px;
+    }
+  }
+  
+  /* Responsive styles for mobile phones */
+  @media (max-width: 768px) {
+    .carousel-caption {
+      font-size: 16px;
+    }
+  }
+  
+  /* Additional responsive styles as needed */
+  
