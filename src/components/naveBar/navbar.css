@@ -5,8 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
-  background-color: rgb(193, 190, 192);
+  padding: 4px;
+  background-color: rgb(47, 14, 82);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   /* Responsive styles for tablets */
@@ -66,7 +66,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 

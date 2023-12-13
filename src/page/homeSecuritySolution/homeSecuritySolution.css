@@ -1,0 +1,41 @@
+.homeSecurity-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.homeSecurity-content{
+    /*background-image: url("../../asesst/homeSecurityBG.png");*/
+    background: 
+        url("../../asesst//homeSecurityBG.svg");
+    background-size: cover;
+    height: calc(100vh - 50px);
+
+    
+}
+
+.homeSecurity-sidebattons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homeSecurity-itemPage{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-width: 2px;
+    border-color: gray;
+    padding: 10px;
+}
+
+.sidebar-button{
+    width: 300px;
+    background-color: rgb(225, 225, 225, 0.5);
+    border-color: gray;
+    border-width: 2px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight:bold;
+}
+
+

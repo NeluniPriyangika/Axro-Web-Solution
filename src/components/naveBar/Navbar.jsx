@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
   
         <ul className="nav-links">
-          <li><a href="#">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li className="dropdown">
             <a href="#">Services</a>
             <ul className="dropdown-content">
