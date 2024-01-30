@@ -1,6 +1,7 @@
 .homeSecurity-main{
     display: flex;
     flex-direction: column;
+    
 }
 
 .homeSecurity-content{
@@ -16,6 +17,7 @@
 .homeSecurity-sidebattons{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     
 }
 
@@ -27,15 +29,25 @@
     padding: 10px;
 }
 
-.sidebar-button{
+.sidebar-button1{
     width: 300px;
     background-color: rgb(225, 225, 225, 0.5);
     border-color: gray;
     border-width: 2px;
     padding: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-right: 350px;
+    margin-top: 250px;
     font-weight:bold;
 }
 
+.sidebar-button2{
+    width: 300px;
+    background-color: rgb(225, 225, 225, 0.5);
+    border-color: gray;
+    border-width: 2px;
+    padding: 10px;
+    margin-right: 350px;
+    margin-top: 10px;
+    font-weight:bold;
+}
 

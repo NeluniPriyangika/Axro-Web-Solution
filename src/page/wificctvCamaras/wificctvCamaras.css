@@ -1,0 +1,133 @@
+.wificam-main{
+
+}
+
+.wificam-main h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wificam-content{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height:100%;
+    
+}
+
+.wificam-contentleft{
+    width: 25%;
+    height: 700px;
+    box-shadow: 0 0 2px gray;
+    overflow: scroll;
+    background-color:#6600ff;
+
+}
+
+/*.container {
+    width: 100%;
+    height: 600px;
+    margin: 30px auto;
+    box-shadow: 0 0 2px gray;
+    padding: 20px;
+    overflow: scroll; 
+  }*/
+  
+  /* Define the scrollbar style */
+  .container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Define the thumb style */
+  .container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, #4d7fff 0%, #1a56ff 100%);
+    border-radius: 5px;
+  }
+  
+  /* Define the track style */
+  .container::-webkit-scrollbar-track {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+  }
+  
+  /* Define the button style */
+  .container::-webkit-scrollbar-button {
+    background-color: #4d7fff;
+    border-radius: 5px;
+  }
+  
+  /* Define the button style when being hovered over */
+  .container::-webkit-scrollbar-button:hover {
+    background-color: #999999;
+  }
+
+.wificam-card{
+   margin-top: 10px;
+   margin-left: 35px;
+}
+
+.wificam-description{
+   
+}
+
+.wificam-contentright{
+    width: 75%;
+    background-color: black;
+    
+   
+}
+
+h1{
+    color: white;
+}
+
+.wificam-contentrightdes{
+}
+
+.wificam-card1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    
+ }
+
+.right-card{
+    margin-left: 20px;
+}
+
+.wificam-description1{
+    height: 50px;
+    padding: 12px;
+    background-color: rgb(180, 180, 180);
+    width: 450px;
+    margin-left: 10px;
+}
+
+.wificam-description2{
+    height: 50px;
+    padding: 12px;
+    background-color: rgb(210, 210, 210);
+    width: 450px;
+    margin-left: 10px;
+}
+
+.wificam-button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.contactsaller{
+
+}
+
+.addtofav{
+    margin-left: 40px;
+}
+
+.modelback{
+    background-color: rgba(59, 59, 59, 0.5);
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import Logo from '../../asesst/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -14,7 +15,7 @@ const Navbar = () => {
           <li className="dropdown">
             <a href="#">Services</a>
             <ul className="dropdown-content">
-              <li><a href="#">Home Security Sloutions</a></li>
+              <li><Link to="/homeSecuritySolution"><a href="#">Home Security Sloutions</a></Link></li>
               <li><a href="#">Software Development</a></li>
               <li><a href="#">Innovations and Engineering</a></li>
             </ul>
